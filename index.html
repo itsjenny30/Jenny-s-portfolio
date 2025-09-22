@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-black text-pink-400">
+
+  <!-- Header -->
+  <header class="bg-black shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-pink-400">My Portfolio</h1>
+      <nav>
+        <ul class="flex gap-6 text-sm">
+          <li><a href="#home" class="hover:text-pink-600">Home</a></li>
+          <li><a href="#about" class="hover:text-pink-600">About</a></li>
+          <li><a href="#education" class="hover:text-pink-600">Education</a></li>
+          <li><a href="#gallery" class="hover:text-pink-600">Gallery</a></li>
+          <li><a href="#hobbies" class="hover:text-pink-600">Hobbies</a></li>
+          <li><a href="#contact" class="hover:text-pink-600">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex items-center px-6 md:px-20">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-6">
+      <!-- Left: Photo -->
+      <div class="w-64 h-64 border-4 border-pink-600 rounded-lg overflow-hidden">
+        <img src="C:\Users\Lenovo Gaming\OneDrive\Desktop\my photo\photo\550364319_1145070740832071_7990672959263041984_n (1).jpg" alt="Jenny Posas" class="w-full h-full object-cover"/>
+     </div>
+>
+      <!-- Right: Intro Text -->
+      <div class="text-left">
+        <h2 class="text-5xl font-extrabold mb-4 text-pink-400">Hi, I'm Jenny Fedelino Posas</h2>
+        <p class="text-2xl mb-6 text-pink-300">Bachelor of Information Systems Student</p>
+        <a href="#about" class="bg-pink-500 text-black px-8 py-4 rounded-lg hover:bg-pink-600 transition text-lg">
+          Learn More About Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-20">
+    <div class="max-w-4xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- About Me Box -->
+      <div class="bg-black border border-pink-600 rounded-lg p-6 shadow-md text-pink-300">
+        <h3 class="text-3xl font-semibold mb-4 text-pink-400">About Me</h3>
+        <p class="text-base leading-relaxed">
+          I'm a Bachelor of Information Systems student with a passion for technology, data, and solving real-world problems.
+          I enjoy learning about systems analysis, databases, and front-end development. I'm eager to apply my skills in internships and
+          projects that bridge business and IT.
+        </p>
+      </div>
+      <!-- Personal Info Box -->
+      <div class="bg-black border border-pink-600 rounded-lg p-6 shadow-md text-pink-300">
+        <h4 class="text-2xl font-semibold mb-4 text-pink-400">Personal Information</h4>
+        <ul class="space-y-2 text-sm">
+          <li><strong>Name:</strong> Jenny Fedelino Posas</li>
+          <li><strong>Birth Date:</strong> October 30, 2004</li>
+          <li><strong>Place of Birth:</strong> Mulanay, Quezon, Philippines</li>
+          <li><strong>Phone:</strong> 09701824862</li>
+          <li><strong>Education:</strong> Lyceum De San Pablo</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="py-20 bg-gray-900">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-semibold mb-6 text-pink-400">Education</h3>
+      <div class="space-y-6 text-gray-300">
+        <div class="bg-black border border-pink-600 p-6 rounded-lg shadow">
+          <h4 class="text-xl font-bold text-pink-400">Lyceum de San Pablo</h4>
+          <p>Bachelor of Information Systems</p>
+          <p class="text-sm text-pink-300">2022 – Present</p>
+        </div>
+        <div class="bg-black border border-pink-600 p-6 rounded-lg shadow">
+          <h4 class="text-xl font-bold text-pink-400">Bondoc Peninsula Agricultural High School</h4>
+          <p>Senior High School – ICT Strand</p>
+          <p class="text-sm text-pink-300">Graduated 2022</p>
+        </div>
+        <div class="bg-black border border-pink-600 p-6 rounded-lg shadow">
+          <h4 class="text-xl font-bold text-pink-400">Bondoc Peninsula Agricultural High School</h4>
+          <p>Junior High School</p>
+          <p class="text-sm text-pink-300">Graduated 2020</p>
+        </div>
+        <div class="bg-black border border-pink-600 p-6 rounded-lg shadow">
+          <h4 class="text-xl font-bold text-pink-400">Ilayang Cambuga Elementary School</h4>
+          <p>Elementary</p>
+          <p class="text-sm text-pink-300">Graduated 2016</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Hobbies Section -->
+  <section id="hobbies" class="py-20">
+    <div class="max-w-5xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-semibold mb-6 text-pink-400">Hobbies</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-black border border-pink-600 rounded-lg p-6 shadow">
+          <img src="https://media.istockphoto.com/id/1334436084/photo/top-down-view-of-colorful-illuminated-gaming-accessories-laying-on-table.jpg?s=1024x1024&w=is&k=20&c=-yl2QFjUKOzEpQsr06M-4YGx18V8Ww4EIacgoDhmBSk=" alt="Playing Online Games"
+               class="w-full h-48 object-cover rounded mb-4 border border-pink-500"/>
+          <h4 class="text-xl font-bold text-pink-400">Playing Online Games</h4>
+       </div>
+        <div class="bg-black border border-pink-600 rounded-lg p-6 shadow">
+          <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*hB5Mx3GAK-_n3nFBtqvJIA.jpeg" 
+               alt="Watching K-Drama"
+               class="w-full h-48 object-cover rounded mb-4 border border-pink-500"/>
+          <h4 class="text-xl font-bold text-pink-400">Watching K-Drama</h4>
+        </div>
+        <div class="bg-black border border-pink-600 rounded-lg p-6 shadow">
+          <img src="https://cdn.create.vista.com/api/media/medium/139877122/stock-photo-woman-preparing-salad?token=" alt="Cooking"
+               class="w-full h-48 object-cover rounded mb-4 border border-pink-500"/>
+          <h4 class="text-xl font-bold text-pink-400">Cooking</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <!-- Contact -->
+  <section id="contact" class="py-20 border-t border-pink-600">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-semibold mb-6 text-pink-400">Contact</h3>
+      <p class="text-pink-300 mb-2">Phone: 09701824862</p>
+      <p class="text-pink-300 mb-6">Email: <a href="mailto:jennyposa@gmail.com" class="underline hover:text-pink-600">jennyposa@gmail.com</a></p>
+      <!-- Social Media Icons -->
+      <div class="flex justify-center gap-6 text-3xl">
+        <a href="https://www.facebook.com/yourprofile" target="_blank" aria-label="Facebook"
+          class="bg-black border border-pink-600 w-14 h-14 flex items-center justify-center rounded-full text-pink-400 hover:bg-pink-600 hover:text-black transition">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://t.me/yourprofile" target="_blank" aria-label="Telegram"
+          class="bg-black border border-pink-600 w-14 h-14 flex items-center justify-center rounded-full text-pink-400 hover:bg-pink-600 hover:text-black transition">
+          <i class="fab fa-telegram"></i>
+        </a>
+        <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram"
+          class="bg-black border border-pink-600 w-14 h-14 flex items-center justify-center rounded-full text-pink-400 hover:bg-pink-600 hover:text-black transition">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom -->
+  <footer class="bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 text-white p-4 mt-8 rounded-lg shadow text-center">
+    &copy; 2025 Jenny Fedelino Posas. All rights reserved.
+  </footer>
+
+</body>
+</html>
